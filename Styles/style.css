@@ -115,6 +115,9 @@ main{
   max-width: 1140px;
   margin: 0px auto;
 }
+main section{
+  margin-top: 130px;
+}
 
 
 /* About Section Styles  */
@@ -144,7 +147,14 @@ main{
   padding: 30px 150px;
 
 } 
-
+/* Skills Section Styles */
 .skills-container{
   display: flex;
+  gap: 50px;
+}
+.skills{
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
 }

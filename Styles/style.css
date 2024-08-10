@@ -42,7 +42,7 @@ body{
   }
   .section-description{
     text-align: center;
-    font-size: 25px;
+    font-size: 15px;
   }
 
 /* NavBar Styles */
@@ -103,13 +103,19 @@ header {
   margin-bottom: 10px;
 }
 .banner-description{
+
   font-size: 20px;
   margin-top: 5px;
   margin-bottom: 10px;
 }
 
 
-/* Main  */
+/* Main Section Styles */
+main{
+  max-width: 1140px;
+  margin: 0px auto;
+}
+
 
 /* About Section Styles  */
 .about{
@@ -117,4 +123,28 @@ header {
   border-radius: 10px;
   background-color: #fff8f3;
   margin: 130px 0;
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.about-info{
+  text-align: center;
+  font-size: 20px;
+}
+.about-title{
+  margin-bottom: 0;
+}
+.about-description{
+  margin-top: 5px;
+}
+
+
+#what-i-learn-description{
+  padding: 30px 150px;
+
+} 
+
+.skills-container{
+  display: flex;
 }

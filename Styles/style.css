@@ -18,7 +18,19 @@ body{
     color: white;
     font-weight: 700;
     border-radius: 5px;
-    border: 0;
+    border: 1;
+    border-color: red;
+    font-size: 20px;
+    padding: 15px 35px 15px;
+  }
+
+  .btn-primary2{
+    background-color: none;
+    color: red;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1;
+    border-color: red;
     font-size: 20px;
     padding: 15px 35px 15px;
   }
@@ -29,6 +41,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 .nav-title{
     color: #181818;
@@ -46,4 +59,18 @@ nav li{
 nav a {
     text-decoration: none;
     color: #181818;
+}
+
+/*Banner Styles */
+
+header {
+  background-color: #fff8f3;
+}
+.banner{
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  justify-content: center;
+}
+.banner .profile-pic{
+  width: 500px;
 }

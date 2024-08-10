@@ -35,13 +35,23 @@ body{
     padding: 15px 35px 15px;
   }
 
+  .section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+  }
+  .section-description{
+    text-align: center;
+    font-size: 25px;
+  }
+
 /* NavBar Styles */
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 200px;
+    margin: 0 200px;  
 }
 .nav-title{
     color: #181818;
@@ -65,12 +75,46 @@ nav a {
 
 header {
   background-color: #fff8f3;
+  background-image: url(../images/header_bg.png),url(../images/developer.png);;
+  background-repeat: no-repeat;
+  background-position: bottom right, left bottom;
 }
 .banner{
-  padding: 30px 30px 30px 150px;
+  padding: 90px 30px 0px 150px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-content{
+  max-width: 500px;
 }
 .banner .profile-pic{
   width: 500px;
+}
+.banner-greetings{
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0px;
+}
+.banner-title{
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.banner-description{
+  font-size: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+
+/* Main  */
+
+/* About Section Styles  */
+.about{
+  padding: 130px;
+  border-radius: 10px;
+  background-color: #fff8f3;
+  margin: 130px 0;
 }

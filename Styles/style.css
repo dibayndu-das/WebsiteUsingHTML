@@ -194,3 +194,13 @@ main section{
   margin-top: 40px;
   text-align: center;
 }
+
+/* footer styles start */
+
+footer{
+  display: flex;
+  gap: 50px;
+  background-color: #fff8f3;
+  margin-top: 50px;
+  padding: 130px 230px;
+}

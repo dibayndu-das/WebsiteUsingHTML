@@ -77,10 +77,10 @@ header {
   background-color: #fff8f3;
   background-image: url(../images/header_bg.png),url(../images/developer.png);;
   background-repeat: no-repeat;
-  background-position: bottom right, left bottom;
+  background-position: bottom right, top left;
 }
 .banner{
-  padding: 90px 30px 0px 150px;
+  padding: 70px 30px 0px 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;

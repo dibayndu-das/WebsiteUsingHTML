@@ -167,3 +167,30 @@ main section{
   font-size: 30px;
   font-weight: 700;
 }
+.work-life-container{
+  display: flex;
+  gap: 45px;
+  align-items: center;
+}
+
+.content-title{
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.house-name{
+  margin-top: 5px;
+}
+.content-description{
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.download-resume{
+  margin-top: 50px;
+}
+
+.btn-download{
+  margin-top: 40px;
+  text-align: center;
+}
